@@ -1,4 +1,5 @@
 from aiogram import types, executor
+
 from loader import dp, db
 from aiogram.types import ReplyKeyboardRemove
 from logging import basicConfig, INFO
@@ -6,6 +7,7 @@ from logging import basicConfig, INFO
 from keyboard.keyboard import start_keyboard
 from lexicon.lexiconRu import text_command
 from data.config import ADMINS
+import handlers
 
 
 @dp.message_handler(commands='start')

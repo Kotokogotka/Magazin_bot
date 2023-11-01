@@ -1,6 +1,6 @@
 from aiogram.types import Message
 from aiogram.dispatcher.filters import BoundFilter
-from Magazin_bot.data.config import ADMINS
+from data.config import ADMINS
 
 
 class IsAdmin(BoundFilter):
